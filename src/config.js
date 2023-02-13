@@ -1,8 +1,8 @@
 const config = {};
 
-config.host = process.env.HOST || "[the endpoint URI of your Azure Cosmos DB account]";
+config.host = process.env.HOST || "https://thinknyx.documents.azure.com:443/";
 config.authKey =
-  process.env.AUTH_KEY || "[the PRIMARY KEY value of your Azure Cosmos DB account";
+  process.env.AUTH_KEY || "IKYZXUh70bn4wGPXPMmsyfIXQ5FrHpqXNMoYwCDz9xXV28GWcXsOh6hJBMEnvJF1JnwAYRgVzvOxACDbnZmJBg==";
 config.databaseId = "ToDoList";
 config.containerId = "Items";
 
